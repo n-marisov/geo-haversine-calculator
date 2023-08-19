@@ -1,0 +1,29 @@
+{
+  "name": "maris/geo-haversine-calculator",
+  "description": "Калькулятор Хаверсайна.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Марисов Николай Андреевич",
+      "email": "marisov123456789@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "maris/geo-interfaces": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maris\\Geo\\Haversine\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Maris\\Geo\\Haversine\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
